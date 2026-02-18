@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kamsini Sivakuru - Software Engineer Intern</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-accent">&lt;</span>S.Kamsini<span class="logo-accent">/&gt;</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <!-- Left: Photo -->
+            <div class="hero-photo">
+                <img src="photo.jpg" alt="Profile Photo" class="profile-photo">
+            </div>
+            <!-- Center: Text Content -->
+            <div class="hero-text">
+                <h1 class="hero-title">Hi, I'm <p><span class="accent">Kamsini Sivakuru</span></p></h1>
+                <p class="hero-role" id="typing-role"><span id="text"></span><span id="cursor">|</span></p>
+                <p class="hero-tagline">I build modern, responsive web applications with clean code, elegant UI, and creative solutions.</p>
+                
+                <div class="hero-buttons">
+                    <button class="btn btn-primary" id="downloadCV">Download CV</button>
+                    <a href="https://github.com/sivakurukamsini" target="_blank" class="btn btn-secondary">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                </div>
+
+                <!-- Social Links -->
+                <div class="social-links">
+                    <a href="https://github.com/sivakurukamsini" target="_blank" title="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/hamsini-sivaguru-60bb40334" target="_blank" title="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="mailto:sivagurushiva70@gmail.com" title="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Right: 3D Cube -->
+            <div class="hero-3d">
+                <div class="cube">
+                    <div class="cube-face front">HTML</div>
+                    <div class="cube-face back">CSS</div>
+                    <div class="cube-face right">JS</div>
+                    <div class="cube-face left">Java</div>
+                    <div class="cube-face top">Python</div>
+                    <div class="cube-face bottom">VS</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-bio">
+                        I am a Software Engineering undergraduate at the University of Bedfordshire (affiliated with SLIIT City University) and a Higher Diploma in IT graduate. I am seeking a Web Developer / Software Engineer Internship where I can learn, grow, and contribute to real-world projects.
+
+With a passion for frontend development, responsive design, and user experience, I focus on building clean, interactive, and user-friendly web applications. I am always eager to explore new technologies and follow best practices in software development.
+
+                    </p>
+
+                    <div class="education">
+                        <h3>Education</h3>
+                        <div class="education-item">
+                            <h4>BSc (Hons) in Software Engineering</h4>
+                            <p class="edu-detail"> University of Bedfordshire (Present)</p>
+                        </div>
+                        <div class="education-item">
+                            <h4>Higher Diploma in Information Technology</h4>
+                            <p class="edu-detail">SLIIT City Uni - Completed</p>
+                        </div>
+                        <div class="education-item">
+                            <h4>Diploma in Information Technology & English</h4>
+                            <p class="edu-detail">Esoft Metro Campus - Completed</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Stats or Info Cards -->
+                <div class="about-stats">
+                    <div class="stat-card fade-in">
+                        <div class="stat-number">6+</div>
+                        <div class="stat-label">Projects</div>
+                    </div>
+                    <div class="stat-card fade-in">
+                        <div class="stat-number">10+</div>
+                        <div class="stat-label">Skills</div>
+                    </div>
+                    <div class="stat-card fade-in">
+                        <div class="stat-number">2+</div>
+                        <div class="stat-label">Years Learning</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card" data-category="programming">
+                    <div class="skill-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Programming Languages</h3>
+                    <ul class="sub-skills">
+                        <li>JavaScript</li>
+                        <li>Python</li>
+                        <li>Java</li>
+                        <li>C</li>
+                        <li>R</li>
+                    </ul>
+                </div>
+
+                <div class="skill-card" data-category="frontend">
+                    <div class="skill-icon">
+                        <i class="fas fa-desktop"></i>
+                    </div>
+                    <h3>Frontend</h3>
+                    <ul class="sub-skills">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>React.js</li>
+                    </ul>
+                </div>
+
+                <div class="skill-card" data-category="backend">
+                    <div class="skill-icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <h3>Backend</h3>
+                    <ul class="sub-skills">
+                        <li>Node.js</li>
+                        <li>Express.js</li>
+                        <li>PHP</li>
+                        <li>Ajax</li>
+                    </ul>
+                </div>
+
+                <div class="skill-card" data-category="database">
+                    <div class="skill-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>Database</h3>
+                    <ul class="sub-skills">
+                        <li>MySQL</li>
+                        <li>MongoDB</li>
+                    </ul>
+                </div>
+
+                <div class="skill-card" data-category="data-analysis">
+                    <div class="skill-icon">
+                        <i class="fas fa-chart-bar"></i>
+                    </div>
+                    <h3>Data Analysis Tools</h3>
+                    <ul class="sub-skills">
+                        <li>Python</li>
+                        <li>RStudio</li>
+                        <li>Excel</li>
+                    </ul>
+                </div>
+
+                <div class="skill-card" data-category="tools">
+                    <div class="skill-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>Tools</h3>
+                    <ul class="sub-skills">
+                        <li>GitHub</li>
+                        <li>VS Code</li>
+                        <li>NetBeans</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3>Portfolio Website</h3>
+                    <p>Modern, responsive portfolio with 3D animations, smooth scrolling, and professional design. Perfect for showcasing your projects and skills to potential employers.</p>
+                    <div class="project-tags">
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">JavaScript</span>
+                    </div>
+                    <div class="project-buttons">
+                        <a href="https://sivakurukamsini.github.io/portfolio-website/" class="btn btn-small btn-live" target="_blank">View Live</a>
+                        <a href="https://github.com/sivakurukamsini/portfolio-website" class="btn btn-small btn-github" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                    </div>
+                </div>                   
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <h3>Taste of Thaayagam</h3>
+                    <p>Full‑stack food delivery platform with customer frontend, admin panel, and backend API. Features include menu browsing, cart & orders, reservations, user login/account, admin product management, order tracking, messages, PDF/CSV exports, and email utilities.<div class="project-tags">
+                         <span class="tag">Mongo DB</span>
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">HML</span>
+                        <span class="tag">CSS</span>
+                    </div>
+                    <div class="project-buttons">
+                        <a href="https://github.com/sivakurukamsini/Food_Delivery_TasteofThaayagam" class="btn btn-small btn-github" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Student Management System</h3>
+                    <p>Full-stack web application for managing student records with complete CRUD operations. Features include student registration, profile management, search, and MySQL database integration.</p>
+                    <div class="project-tags">
+                        <span class="tag">PHP</span>
+                        <span class="tag">MySQL</span>
+                        <span class="tag">CRUD</span>
+                    </div>
+                    <div class="project-buttons">
+                        <a href="#" class="btn btn-small btn-live" target="_blank">View Live</a>
+                        <a href="https://github.com/sivakurukamsini/student-management" class="btn btn-small btn-github" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <h3>E-Commerce Website</h3>
+                    <p>For the "Shoe Haven" frontend project I used HTML, CSS and plain (vanilla) JavaScript with browser localStorage for client-side data persistence (no backend); the build includes a responsive UI, hero slideshow, live search filtering, and a persistent shopping cart.<div class="project-tags">
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">JavaScript</span>
+                    </div>
+                    <div class="project-buttons">
+                        <a href="https://sivakurukamsini.github.io/Frontend_Shoe_Haven/" class="btn btn-small btn-live" target="_blank">View Live</a>
+                        <a href="https://github.com/sivakurukamsini/Frontend_Shoe_Haven" class="btn btn-small btn-github" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="contact-subtitle">I'd love to hear from you! Reach out via email or connect on GitHub.</p>
+            
+            <div class="contact-content">
+                <div class="contact-card">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email</h3>
+                    <a href="mailto:sivagurushiva70@gmail.com">sivagurushiva70@gmail.com</a>
+                </div>
+
+                <div class="contact-card">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Location</h3>
+                    <p>Sri Lanka, Western Province, Colombo 4</p>
+                </div>
+
+                <div class="contact-card">
+                    <i class="fab fa-github"></i>
+                    <h3>GitHub</h3>
+                    <a href="https://github.com/sivakurukamsini" target="_blank">Visit My GitHub</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2026 Kamsini Sivakuru. All rights reserved.</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
