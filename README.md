@@ -2,7 +2,7 @@
 
 A modern, responsive, and animated portfolio website for software engineer internship applications.
 
-## 🎨 Features
+ 🎨 Features
 
 - **Modern Design**: Deep navy background (#0a192f) with neon cyan accents (#64ffda)
 - **3D Animations**: Rotating 3D cube in hero section and 3D hover effects on cards
@@ -17,20 +17,20 @@ A modern, responsive, and animated portfolio website for software engineer inter
   - Parallax effects
   - Scroll-to-top button
 
-## 📁 Files
+ 📁 Files
 
 - `index.html` - Main HTML structure with semantic markup
 - `style.css` - Modern CSS with Flexbox, Grid, animations, and media queries
 - `script.js` - Interactive features and animations
 - `cv.pdf` - CV file for download (sample provided)
 
-## 🚀 Getting Started
+ 🚀 Getting Started
 
 1. **Open the website**: Simply open `index.html` in your web browser
 2. **No dependencies**: This is pure HTML, CSS, and JavaScript - no frameworks needed!
 3. **Works offline**: Download all files and open locally
 
-## 📝 Customization
+ 📝 Customization
 
 ### Update Your Information
 
@@ -56,7 +56,7 @@ A modern, responsive, and animated portfolio website for software engineer inter
    - Edit the skills list in the Skills section
    - Each skill card has an icon, title, and description
 
-## 🎯 Key Sections
+ 🎯 Key Sections
 
 ### 1. Navigation Bar
 - Fixed navbar with smooth scrolling links
@@ -123,48 +123,3 @@ These colors are defined as CSS variables in `style.css` and can be easily modif
 9. **Cursor Follower**: Optional animated cursor follower
 10. **Dark Mode Toggle**: Optional dark/light mode switching
 
-## 🌐 Browser Support
-
-- Chrome (Latest)
-- Firefox (Latest)
-- Safari (Latest)
-- Edge (Latest)
-- Mobile browsers (iOS Safari, Chrome Mobile)
-
-## 📦 Performance
-
-- No external frameworks or dependencies (except Font Awesome icons)
-- Lightweight CSS and JavaScript
-- Optimized animations for smooth 60fps performance
-- Lazy loading ready for future image additions
-
-## 🔧 Technical Details
-
-- **HTML5**: Semantic HTML structure
-- **CSS3**: Flexbox, Grid, 3D transforms, animations
-- **JavaScript (ES6)**: Modern JavaScript with no dependencies
-- **Icons**: Font Awesome 6.4.0
-- **Font**: System fonts (Segoe UI, Tahoma, Geneva, Verdana, sans-serif)
-
-## 🎯 Job Application Tips
-
-1. **Customize Everything**: Update your name, contact info, and projects
-2. **Add Real Projects**: Replace placeholder project links with your actual work
-3. **Update Skills**: List only skills you're confident with
-4. **Quality CV**: Make sure your CV is up-to-date and professional
-5. **GitHub Links**: Ensure your GitHub profile is public and has quality projects
-6. **Email Contact**: Keep your email address current and check it regularly
-
-## 📧 Contact
-
-- **Email**: yourname@gmail.com (Update this!)
-- **GitHub**: https://github.com/YOUR_GITHUB_USERNAME (Update this!)
-- **Location**: Sri Lanka
-
-## 📄 License
-
-This portfolio template is free to use and modify for personal use.
-
----
-
-**Created with ❤️ for job seekers and interns**
